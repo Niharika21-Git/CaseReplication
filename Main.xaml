@@ -90,7 +90,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="635.9999999999999,856.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="635.9999999999999,872.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_ProductionTracker" />
     </Sequence.Variables>
@@ -99,9 +99,9 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_ProductionTracker]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="470,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Tracker" WorkbookPath="VegetablesProduction.xlsx" />
-    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Estimated Value" DataTable="[dt_ProductionTracker]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="470,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_ProductionTracker]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="470,352" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_ProductionTracker]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="502,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Tracker" WorkbookPath="VegetablesProduction.xlsx" />
+    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Estimated Value" DataTable="[dt_ProductionTracker]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="502,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="502,368" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
@@ -125,6 +125,6 @@
         </ActivityAction>
       </ui:ForEachRow.Body>
     </ui:ForEachRow>
-    <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_ProductionTracker]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="470,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="NewTracker" WorkbookPath="VegetablesProduction.xlsx" />
+    <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_ProductionTracker]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="502,138.66666666666666" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="NewTracker" WorkbookPath="VegetablesProduction.xlsx" />
   </Sequence>
 </Activity>
