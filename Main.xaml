@@ -94,6 +94,7 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_ProductionTracker" />
       <Variable x:TypeArguments="x:String" Name="extravariable" />
+      <Variable x:TypeArguments="x:String" Name="secondvariableextra" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
